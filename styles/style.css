@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+}
+#root-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.command-list {
+    list-style-type: none;
+}
+
+.command-list > li {
+    display: inline;
+    margin: 2px;
+}
+
+.wide {
+    width: 100%;
+}
+
+.right {
+    justify-content: right;
+}
+
+.left {
+    justify-content: left;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+input[type="search"] {
+    border-color: lightslategray;
+    border-width: 1px;;
+    border-radius: 5px;
+}
+
+input[type="search"]:hover {
+    box-shadow: 2px 5px 5px lightgrey;
+}
